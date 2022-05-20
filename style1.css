@@ -26,7 +26,7 @@ body {
   background-color: antiquewhite;
 }
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.01rem;
 }
 body::-webkit-scrollbar-track {
   background: --bg-primary;
@@ -49,10 +49,12 @@ body::-webkit-scrollbar-track {
 }
 .primary-navigation a.is-active,
 .primary-navigation a:hover {
-  background-color: #d62e66;
-  color: #202731;
+  /* background-color: #d62e66; */
+  color: #d62e66;
   font-weight: 700;
-  transition: 0.2s;
+  /* width: 90%; */
+  /* transition: 2s; */
+  /* justify-items: center; */
 }
 
 /* .primary-navigation > span {
@@ -171,7 +173,6 @@ nav {
     flex-direction: column;
     row-gap: 1rem;
     position: fixed;
-    width: 100%;
     left: -100%;
     top: 46px;
     gap: 0;
