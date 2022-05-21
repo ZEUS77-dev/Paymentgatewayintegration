@@ -136,7 +136,7 @@ nav {
   transform-origin: 0 0;
   transition: 0.4s;
 }
-.borgir:hover span:nth-child(2)  {
+.borgir:hover span:nth-child(2) {
   transform: translateX(10px);
   background-color: rgb(213, 45, 101);
 }
